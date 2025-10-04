@@ -28,8 +28,18 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <11 12>;
+            key-positions = <10 11>;
             bindings = <&kp ESC>;
+        };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp TAB>;
+        };
+        combo_sticky_shift {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&sk LSHFT>;
         };
     };
 
