@@ -96,7 +96,7 @@
             &kp SV_A_RING &kp SV_O_UMLAUT &kp SV_QMARK &kp SV_SLASH &kp SV_CARET &none &kp LEFT &kp DOWN &kp UP  &kp RIGHT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp SV_A_UMLAUT &kp LC(O) &kp LC(R) &kp SV_BACKSLASH     &kp SV_CARET &none &none &none &none &kp SV_UNDERSCORE
+            &kp SV_A_UMLAUT &kp LC(O) &kp LC(R) &kp SV_BACKSLASH     &kp SV_CARET &none &none &none &kp LC(V) &kp SV_UNDERSCORE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &mo 3     &none         &none     &none
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
