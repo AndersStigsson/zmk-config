@@ -47,6 +47,15 @@
             key-positions = <20 21>;
             bindings = <&sk LSHFT>;
         };
+        combo_screenshot {
+            timeout-ms = <50>;
+            key-positions = <14 15>;
+            bindings = <&kp LC(GUI(S))>;
+        };
+        combo_aerospace_service {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp LS(GUI(S))>;
     };
 
 
@@ -90,7 +99,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
-            &kp SV_COLON     &kp SV_SEMI   &kp SV_LT   &kp SV_GT   &none         &none  &none   &kp LC(C)   &none   &none
+            &kp SV_COLON     &kp SV_SEMI   &kp SV_LT   &kp SV_GT   &none         &none  &none   &kp LC(C)   &kp SV_ACUTE   &kp SV_GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
             &kp SV_A_RING &kp SV_O_UMLAUT &kp SV_QMARK &kp SV_SLASH &kp SV_CARET &none &kp LEFT &kp DOWN &kp UP  &kp RIGHT
