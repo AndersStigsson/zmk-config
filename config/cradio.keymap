@@ -50,12 +50,12 @@
         combo_screenshot {
             timeout-ms = <50>;
             key-positions = <14 15>;
-            bindings = <&kp LC(LGUI(S))>;
+            bindings = <&kp LC(LG(S))>;
         };
         combo_aerospace_service {
             timeout-ms = <50>;
             key-positions = <8 9>;
-            bindings = <&kp LS(LGUI(S))>;
+            bindings = <&kp LS(LG(S))>;
     };
 
 
